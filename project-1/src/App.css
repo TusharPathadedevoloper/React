@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  align-items: center;
+  height: 72px;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap:32px
+}
+nav img{
+  height: 72px;
+}
+button{
+  all: unset;
+  padding: 6px 16px;
+  background: rgb(196, 2, 2);
+  height: 32px;
+  color: white  ;
+
+font-weight: 500;
+}
+.shoes{
+ display: flex; 
+ align-items: center;
+ margin: 0 auto;
+ max-width: 1280px;
+ justify-content: space-between;
+ height: calc(100vh-72px);
+}
+.shoes h1{
+  font-weight: 800;
+  font-size:108px;
+}
+.shoes p{
+  font-weight: 600;
+color: rgb(61, 61, 61);
+}
+.shoes-button{
+  display: flex;
+  gap:50px ;
+  margin-top: 15px;
+}
+.sec-button{
+background-color: white;
+color: black;
+border: 1px solid black;
+}
+.sec-button:hover{
+  color: aliceblue;
+  background: rgb(196, 2, 2);
+}
+.nike-image{
+height: calc(100vh - 100px);  
+}
